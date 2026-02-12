@@ -7,7 +7,7 @@ body {
 .hero {
   position: relative;
   width: calc(100% - 60px); 
-  height: calc(70vh - 60px); 
+  height: calc(80vh - 60px); 
   margin: 30px; 
   overflow: hidden;
   border: none; 
@@ -45,12 +45,15 @@ body {
 .hero-text p { 
   font-size: 1rem;
 }
- 
+  
+
+
 @media (max-width: 460px) {
   .hero-text { 
     top: 75%;  
-    left: 35%;
-  }
+    left: 40%;  
+  } 
+  
   .hero-text h1 {
     font-size: 0.7rem; 
   }
@@ -60,11 +63,12 @@ body {
   .hero-text button { 
     width: 80%;        
     padding: 8px 15px;  
-    font-size: 14px;    
+    font-size: 14px;     
+    
   } 
 }  
  
-@media (max-width: 768px) {
+@media (min-width: 460px) and (max-width: 768px) {
   .hero {
     height: 40vh; 
   } 
