@@ -1,6 +1,6 @@
 import React from "react";
-import "./Card.css";     
-import heroImg from "../assets/heroImg.jpg"
+import "./Hero.css";     
+import heroImg from "../../assets/heroImg.jpg";
 
 
 export default function Hero () { 
