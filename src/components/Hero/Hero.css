@@ -22,7 +22,7 @@
   color: white;
   text-align: left; 
 }    
-@media (max-height: 768px) and (orientation: landscape) {
+@media (max-height: 460px) and (orientation: landscape) {
   .hero {
     min-height: 150svh;
   }
